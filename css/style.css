@@ -1,11 +1,13 @@
 
 html{
   font-family: "Spartan","Arial",sans-serif;
+  background: #a59e9e;
+
 }
 
 
 .heder{
-  width: 1366px;
+  width: 1346px;
   height: 155px;
   background-image: url("../img/heder.svg");
   background-repeat: no-repeat;
@@ -20,7 +22,6 @@ html{
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #000;
 }
 
 .bolim{
@@ -28,10 +29,23 @@ html{
   height: 152px;
   padding-left: 40px;
   padding-top: 40px;
+  margin-bottom: 30px;
   border-right: 7px solid #5CA5A5;
   border-left: 7px solid #5CA5A5;
   display: block;
   display: flex;
+  background-color: #fff;
+  transition: border-right 0.5s ease,
+  border-left 0.5s ease,
+  border 0.3s ease;
+}
+
+.bolim:hover{
+  border-right: none;
+  border-left: none;
+  border: 10px solid #5ca5a5;
+
+
 }
 
 
